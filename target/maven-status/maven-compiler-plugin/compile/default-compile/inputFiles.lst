@@ -1,0 +1,12 @@
+/Users/Moe/dev/cs-review/VideoStreamingApp/src/main/java/com/flixit/server/MovieService.java
+/Users/Moe/dev/cs-review/VideoStreamingApp/src/main/java/com/flixit/server/MovieServiceAPI.java
+/Users/Moe/dev/cs-review/VideoStreamingApp/src/main/java/com/flixit/server/MovNotFoundExceptionMapper.java
+/Users/Moe/dev/cs-review/VideoStreamingApp/src/main/java/com/flixit/server/ErrorResponse.java
+/Users/Moe/dev/cs-review/VideoStreamingApp/src/main/java/com/flixit/server/MovieRequest.java
+/Users/Moe/dev/cs-review/VideoStreamingApp/src/main/java/com/flixit/server/MovieRouter.java
+/Users/Moe/dev/cs-review/VideoStreamingApp/src/main/java/com/flixit/model/Movie.java
+/Users/Moe/dev/cs-review/VideoStreamingApp/src/main/java/com/flixit/exceptions/MovieNotFoundException.java
+/Users/Moe/dev/cs-review/VideoStreamingApp/src/main/java/com/flixit/ws/HelloResource.java
+/Users/Moe/dev/cs-review/VideoStreamingApp/src/main/java/com/flixit/server/MovieResponse.java
+/Users/Moe/dev/cs-review/VideoStreamingApp/src/main/java/com/flixit/model/IMovie.java
+/Users/Moe/dev/cs-review/VideoStreamingApp/src/main/java/com/flixit/conf/ApplicationConfig.java
