@@ -13,7 +13,7 @@ public class HelloResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public Response hello(){
-        String output = "Hello World!";
+        String output = "Hello Katyusha!";
         return Response.status(200).entity(output).build();
     }
 
