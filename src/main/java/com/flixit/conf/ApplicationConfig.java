@@ -1,23 +1,14 @@
 package com.flixit.conf;
 
-
-import com.flixit.server.MovieServiceAPI;
-import com.flixit.ws.HelloResource;
+import org.glassfish.jersey.server.ResourceConfig;
 
 
 import javax.ws.rs.ApplicationPath;
-import javax.ws.rs.core.Application;
-import java.util.HashSet;
-import java.util.Set;
+@ApplicationPath("rest")
+public class ApplicationConfig extends ResourceConfig {
 
-@ApplicationPath("v1")
-public class ApplicationConfig extends Application {
-
-    @Override
-    public Set<Class<?>> getClasses(){
-        Set<Class<?>> set = new HashSet<>();
-        set.add(HelloResource.class);
-        set.add(MovieServiceAPI.class);
-        return set;
+    public ApplicationConfig(){
+        packages(true,"com.flixit");
     }
+
 }

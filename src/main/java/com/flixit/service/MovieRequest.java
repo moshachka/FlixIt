@@ -1,4 +1,4 @@
-package com.flixit.server;
+package com.flixit.service;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

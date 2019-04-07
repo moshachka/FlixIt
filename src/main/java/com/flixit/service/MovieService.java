@@ -1,15 +1,16 @@
-package com.flixit.server;
+package com.flixit.service;
 
-import com.flixit.model.IMovie;
 import com.flixit.model.Movie;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MovieService {
-    List<IMovie> movies = new ArrayList<>();
+public class MovieService implements IMovieService {
 
-    public MovieService(){
+
+    @Override
+    public List<Movie> getMovies(){
+        List<Movie> movies = new ArrayList<>();
         Movie batman = new Movie();
         batman.setTitle("Batman");
 
@@ -17,14 +18,7 @@ public class MovieService {
         superman.setTitle("Superman");
         movies.add(batman);
         movies.add(superman);
-    }
-
-    public List<IMovie> getMovies(){
         return movies;
-    }
-
-    public IMovie searchMovie(String title){
-        return movies.get(0);
     }
 
 
